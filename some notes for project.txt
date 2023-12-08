@@ -1,0 +1,34 @@
+start with npm create vite@Latest
+select react 
+select javascript and it will set you up with project 
+but you have to open its folder manually
+
+the go to the tailwind css
+and go to the settings that are best suited for you
+
+go to frameworks 
+then vite
+then select from the second options
+there will be instaltaion guides just follow them one by one 
+
+npm install -D tailwindcss postcss autoprefixer 
+npx tailwindcss init -p  
+
+then copy past the two lines from the official website into the tailwind config
+ content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+and copy paste the code for css into the index.css
+@tailwind base;
+
+framer motion 
+npm install framer-motion   it is some next level work so you can use it only in react 
+@tailwind components;
+@tailwind utilities;
+
+to run the project you will use npm run dev
+
+we can use text-9xl  or we can use orbitary values as well that can be like 
+text-[100vw]  or px or anything you can
